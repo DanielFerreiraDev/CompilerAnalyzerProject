@@ -1,0 +1,148 @@
+{
+  "kind": "Program",
+  "value": null,
+  "lineno": null,
+  "col": null,
+  "children": [
+    {
+      "kind": "Function",
+      "value": null,
+      "lineno": null,
+      "col": null,
+      "children": [
+        {
+          "kind": "Type",
+          "value": "INT",
+          "lineno": null,
+          "col": null,
+          "children": []
+        },
+        {
+          "kind": "Name",
+          "value": "sum",
+          "lineno": null,
+          "col": null,
+          "children": []
+        },
+        {
+          "kind": "Params",
+          "value": null,
+          "lineno": null,
+          "col": null,
+          "children": [
+            {
+              "kind": "Param",
+              "value": {
+                "type": "INT",
+                "name": "x"
+              },
+              "lineno": null,
+              "col": null,
+              "children": []
+            },
+            {
+              "kind": "Param",
+              "value": {
+                "type": "INT",
+                "name": "y"
+              },
+              "lineno": null,
+              "col": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "Block",
+          "value": null,
+          "lineno": null,
+          "col": null,
+          "children": [
+            {
+              "kind": "Decl",
+              "value": null,
+              "lineno": null,
+              "col": null,
+              "children": [
+                {
+                  "kind": "Type",
+                  "value": "INT",
+                  "lineno": null,
+                  "col": null,
+                  "children": []
+                },
+                {
+                  "kind": "Name",
+                  "value": "z",
+                  "lineno": null,
+                  "col": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "kind": "ExprStmt",
+              "value": null,
+              "lineno": null,
+              "col": null,
+              "children": [
+                {
+                  "kind": "Assign",
+                  "value": "=",
+                  "lineno": null,
+                  "col": null,
+                  "children": [
+                    {
+                      "kind": "Var",
+                      "value": "z",
+                      "lineno": null,
+                      "col": null,
+                      "children": []
+                    },
+                    {
+                      "kind": "BinaryOp",
+                      "value": "+",
+                      "lineno": null,
+                      "col": null,
+                      "children": [
+                        {
+                          "kind": "Var",
+                          "value": "x",
+                          "lineno": null,
+                          "col": null,
+                          "children": []
+                        },
+                        {
+                          "kind": "Var",
+                          "value": "y",
+                          "lineno": null,
+                          "col": null,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "Return",
+              "value": null,
+              "lineno": null,
+              "col": null,
+              "children": [
+                {
+                  "kind": "Var",
+                  "value": "z",
+                  "lineno": null,
+                  "col": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

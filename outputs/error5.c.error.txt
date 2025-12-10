@@ -1,0 +1,1 @@
+Expected identifier after type, got ('INT', '123', 1, 5)
